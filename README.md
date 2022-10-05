@@ -6,7 +6,7 @@ git clone https://github.com/LoureiroBruno/curso_laravel_construindo_APIS-DOCKER
 02 - Acessar o Repositório Via Terminal: 
 respositorio baixado/ curso_laravel_construindo_APIS-DOCKER
 
-03 - Baixar as Dependências: 
+03 - Subir os containers: 
 docker-composer up -d 
 
 04 - Acessar o container da image series:
