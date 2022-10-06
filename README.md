@@ -19,8 +19,8 @@ docker-composer up -d
 docker-composer up -d 
 
 08 - Acessar o container da image series:
-docker exec -it id_container bash - 
-php artisan storage:link 
+docker exec -it id_container bash 
+# php artisan storage:link 
 
 
 
