@@ -15,8 +15,13 @@ respositorio baixado/ curso_laravel_construindo_APIS-DOCKER
 06 - Subir os containers: 
 docker-composer up -d 
 
-07 - Acessar o container da image series:
+07 - Subir os containers: 
+docker-composer up -d 
+
+08 - Acessar o container da image series:
 docker exec -it id_container bash
+php artisan storage:link 
+
 
 
 
