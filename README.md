@@ -1,12 +1,13 @@
-Passo a passo 
+# Passo a passo 
 
-01 - Clone Repositório: 
+# 01 - Clone Repositório: 
 git clone https://github.com/LoureiroBruno/curso_laravel_construindo_APIS-DOCKER.git
 
-02 - Acessar o Repositório Via Terminal: 
+# 02 - Acessar o Repositório Via Terminal: 
 respositorio baixado/ curso_laravel_construindo_APIS-DOCKER
 
-03 - Crie o Arquivo .env: cp .env.example .env
+# 03 - Crie o Arquivo .env: 
+cp .env.example .env
 
 04 - composer install
 
@@ -20,7 +21,7 @@ docker-composer up -d
 
 08 - Acessar o container da image series:
 docker exec -it id_container bash 
-# php artisan storage:link 
+php artisan storage:link 
 
 
 
