@@ -17,7 +17,7 @@
 
 # 2.4 - Criar arquivo SQLite: 
 ### cd database
-### 
+### cat database.sqlite
 
 # 4.0 - Subir os containers: 
 ### docker-composer up -d 
