@@ -69,16 +69,16 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ### clonar o repositorio 
 - git clone https://github.com/LoureiroBruno/curso_laravel_forms_sessoes_relacionamentos.git
 ### acessar o repositorio clonado
-  - cd curso_laravel_construindo_APIS-DOCKER/
-  - composer install
-  - cp .env.example .env
+    - cd curso_laravel_construindo_APIS-DOCKER/
+    - composer install
+    - cp .env.example .env
   ### configurar conexão com o banco no .env criado
     - DB_CONNECTION=sqlite
   ### criar o banco de dados sqlite
     - database/database.sqlite 
   ### Rodar as migrações
     - php artisan migrate:fresh
-  ### gerar a key projeto respectivamente
+  ### gerar a key no arquivo .env
     - php artisan key:generate
   ### Acessar a Aplicação
     - localhost:8000
