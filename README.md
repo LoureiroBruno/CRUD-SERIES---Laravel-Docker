@@ -74,7 +74,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     - cp .env.example .env
   ### configurar conexão com o banco no .env criado
     - DB_CONNECTION=sqlite
-  ### criar o banco de dados sqlite
+  ### criar o arquivo do banco de dados sqlite
     - database/database.sqlite 
   ### Rodar as migrações
     - php artisan migrate:fresh
