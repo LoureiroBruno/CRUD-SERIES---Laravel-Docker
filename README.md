@@ -67,9 +67,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ### Seguir o passo a passo
 
 ### clonar o repositorio 
-- git clone https://github.com/LoureiroBruno/CRUD-SERIES-Laravel-Docker.git
+- git clone https://github.com/LoureiroBruno/cadastro_de_series-LaravelDocker.git
 ### acessar o repositorio clonado
-    - cd Cadastro_de_series-LaravelDocker
+    - cd cadastro_de_series-LaravelDocker
     - composer install
     - cp .env.example .env
   ### configurar conexão com o banco no .env criado
