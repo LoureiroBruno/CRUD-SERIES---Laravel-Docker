@@ -64,19 +64,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## como subir a aplicação
+### Seguir o passo a passo
 
 ### clonar o repositorio 
 - git clone https://github.com/LoureiroBruno/curso_laravel_forms_sessoes_relacionamentos.git
-### acessar o repositorio clonado 
-- cd curso_laravel_construindo_APIS-DOCKER/
-### baixar as dependency
-- composer install
-- criar arquivo env
-- cp .env.example .env
-### configurar conexão com o banco
-- DB_CONNECTION=sqlite
-### criar banco sqlite, rodar as migrações e gerar a key projeto
-- database/database.sqlite 
-- php artisan migrate:fresh
-- php artisan key:generate
+### acessar o repositorio clonado
+  - cd curso_laravel_construindo_APIS-DOCKER/
+  - composer install
+  - cp .env.example .env
+  ### configurar conexão com o banco no .env criado
+    - DB_CONNECTION=sqlite
+  ### criar o banco de dados sqlite
+    - database/database.sqlite 
+  ### Rodar as migrações
+    - php artisan migrate:fresh
+  ### gerar a key projeto respectivamente
+    - php artisan key:generate
+  ### Acessar a Aplicação
+    - localhost:8000
 
