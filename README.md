@@ -69,7 +69,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ### clonar o repositorio 
 - git clone https://github.com/LoureiroBruno/curso_laravel_forms_sessoes_relacionamentos.git
 ### acessar o repositorio clonado
-    - cd curso_laravel_construindo_APIS-DOCKER/
+    - cd CRUD SERIES - Laravel-Docker
     - composer install
     - cp .env.example .env
   ### configurar conexão com o banco no .env criado
