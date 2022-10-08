@@ -76,7 +76,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ### criar banco sqlite
 - database.sqlite
 ### rodar as migrações 
-- php artisan migrate
+- php artisan migrate:fresh
 ### gerar a key projeto
 - php artisan key:generate
 ### subir a aplicação
