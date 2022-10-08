@@ -80,6 +80,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     - php artisan migrate:fresh
   ### gerar a key no arquivo .env
     - php artisan key:generate
+    - php artisan storage:link
   ### Subir a Aplicação
     - docker-compose up -d
   ### Acessar a Aplicação
